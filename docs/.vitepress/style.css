@@ -1,0 +1,49 @@
+body {
+  background: none;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url('/1.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  filter: blur(8px) brightness(0.9);
+  z-index: -2;
+}
+
+.VPContent {
+  background: transparent;
+}
+
+.VPDoc {
+  background: rgba(255, 255, 255, 0.55);
+  border-radius: 16px;
+  padding: 24px;
+}
+
+/*
+ * 不要在 .VPDoc 上使用 backdrop-filter / transform：
+ * 它们会让右侧目录的 position: fixed 相对文章容器定位，
+ * 导致目录随整篇文章一起滚走。
+ */
+
+.VPDocAsideOutline .outline-link.active {
+  color: var(--vp-c-brand-1);
+  font-weight: 700;
+}
+
+.VPDocAsideOutline .outline-marker {
+  width: 3px;
+}
+
+.VPDoc h1,
+.VPDoc h2,
+.VPDoc h3,
+.VPDoc p,
+.VPDoc li {
+  color: #111;
+}
+
