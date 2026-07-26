@@ -31,6 +31,7 @@ export default defineConfig({
             collapsed: false,
             items: [
               { text: '主要章节', link: '/LLM/Transfomer/主要章节' },
+              { text: '损失函数与激活函数', link: '/LLM/Transfomer/数学浅析' },
               { text: 'Embedding', link: '/LLM/Transfomer/Transfomer-Embedding' },
               { text: 'MHA、MLA 和 GQA', link: '/LLM/Transfomer/Transfomer-MHA,MLA和GQA' }
             ]
