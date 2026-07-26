@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'Lee AI Lab',
   description: 'My AI learning notes',
+  base: '/lee-blog/',
 
   markdown: {
     math: true
