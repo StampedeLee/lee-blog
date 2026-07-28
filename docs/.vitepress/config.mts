@@ -16,6 +16,7 @@ export default defineConfig({
         text: '学习笔记',
         items: [
           { text: 'Transformer', link: '/LLM/Transfomer/主要章节' },
+          { text: 'RAG', link: '/LLM/RAG/RAG' },
           { text: '杂项', link: '/杂项/搭建' }
         ]
       }
@@ -36,6 +37,13 @@ export default defineConfig({
               { text: 'MHA、MLA 和 GQA', link: '/LLM/Transfomer/Transfomer-MHA,MLA和GQA' }
             ]
           }
+        ]
+      },
+      {
+        text: 'RAG',
+        collapsed: false,
+        items: [
+          { text: 'RAG 基础', link: '/LLM/RAG/RAG' }
         ]
       },
       {

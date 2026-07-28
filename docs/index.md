@@ -19,6 +19,11 @@ features:
     details: Transformer 基础、Embedding、MHA、MLA 与 GQA。
     link: /LLM/Transfomer/主要章节
     linkText: 查看 Transformer 笔记
+  - icon: 🔍
+    title: RAG
+    details: 提示词工程、API 调用与检索增强生成学习笔记。
+    link: /LLM/RAG/RAG
+    linkText: 查看 RAG 笔记
   - icon: 🧰
     title: 杂项
     details: 博客搭建及其他软件工程实践记录。
