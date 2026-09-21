@@ -17,6 +17,7 @@ export default defineConfig({
         items: [
           { text: 'Transformer', link: '/LLM/Transfomer/主要章节' },
           { text: 'RAG', link: '/LLM/RAG/RAG' },
+          { text: 'Agent', link: '/LLM/Agent/总览' },
           { text: '杂项', link: '/杂项/搭建' }
         ]
       }
@@ -44,6 +45,16 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'RAG 基础', link: '/LLM/RAG/RAG' }
+        ]
+      },
+      {
+        text: 'Agent',
+        collapsed: false,
+        items: [
+          { text: 'Agent 总览', link: '/LLM/Agent/总览' },
+          { text: 'Agent 论文', link: '/LLM/Agent/Agent论文' },
+          { text: 'LangGraph', link: '/LLM/Agent/Langgraph' },
+          { text: 'Text-to-SQL 优化', link: '/LLM/Agent/Text_to_SQL改进总览' }
         ]
       },
       {

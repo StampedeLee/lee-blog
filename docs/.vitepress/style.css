@@ -47,3 +47,47 @@ body::before {
   color: #111;
 }
 
+.note-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+  margin: 28px 0;
+}
+
+.note-card {
+  display: flex;
+  min-height: 150px;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid rgba(60, 60, 67, 0.16);
+  border-radius: 8px;
+  padding: 18px;
+  background: rgba(255, 255, 255, 0.72);
+  color: #111;
+  text-decoration: none;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.note-card:hover {
+  border-color: var(--vp-c-brand-1);
+  transform: translateY(-2px);
+}
+
+.note-card strong {
+  color: #111;
+  font-size: 18px;
+}
+
+.note-card span {
+  color: #333;
+  line-height: 1.65;
+}
+
+.note-card-kicker {
+  color: var(--vp-c-brand-1) !important;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
