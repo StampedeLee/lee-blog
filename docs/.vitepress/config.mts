@@ -18,6 +18,9 @@ export default defineConfig({
           { text: 'Transformer', link: '/LLM/Transfomer/主要章节' },
           { text: 'RAG', link: '/LLM/RAG/RAG' },
           { text: 'Agent', link: '/LLM/Agent/总览' },
+          { text: 'SFT', link: '/LLM/SFT/总览' },
+          { text: 'RL', link: '/RL/项目' },
+          { text: 'VR / AR', link: '/杂项/VR' },
           { text: '杂项', link: '/杂项/搭建' }
         ]
       }
@@ -58,9 +61,19 @@ export default defineConfig({
         ]
       },
       {
+        text: '模型训练',
+        collapsed: false,
+        items: [
+          { text: 'SFT 总览', link: '/LLM/SFT/总览' },
+          { text: 'Function Calling 项目', link: '/LLM/SFT/项目笔记' },
+          { text: 'RL 与奖励模型', link: '/RL/项目' }
+        ]
+      },
+      {
         text: '杂项',
         collapsed: false,
         items: [
+          { text: 'VR / AR 学习笔记', link: '/杂项/VR' },
           { text: '博客搭建', link: '/杂项/搭建' }
         ]
       }

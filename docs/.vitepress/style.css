@@ -91,3 +91,56 @@ body::before {
   text-transform: uppercase;
 }
 
+.VPHome .VPFeatures {
+  padding-top: 28px;
+}
+
+.VPHome .VPFeature {
+  border: 1px solid rgba(60, 60, 67, 0.14);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.72);
+  box-shadow: 0 12px 30px rgba(31, 41, 55, 0.08);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.VPHome .VPFeature:hover {
+  border-color: var(--vp-c-brand-1);
+  box-shadow: 0 16px 36px rgba(31, 41, 55, 0.13);
+  transform: translateY(-3px);
+}
+
+.VPHome .VPFeature .icon {
+  background: rgba(255, 255, 255, 0.88);
+  border: 1px solid rgba(60, 60, 67, 0.12);
+}
+
+.VPHome .VPFeature .title,
+.VPHome .VPFeature .details {
+  color: #111;
+}
+
+@media (min-width: 960px) {
+  .VPHome .VPFeatures .items {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+    margin: 0;
+  }
+
+  .VPHome .VPFeatures .item {
+    width: auto;
+    padding: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .VPDoc {
+    border-radius: 0;
+    padding: 18px;
+  }
+
+  .note-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
