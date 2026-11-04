@@ -57,6 +57,7 @@ export default defineConfig({
           { text: 'Agent 总览', link: '/LLM/Agent/总览' },
           { text: 'Agent 论文', link: '/LLM/Agent/Agent论文' },
           { text: 'LangGraph', link: '/LLM/Agent/Langgraph' },
+          { text: 'Skills 与上下文工程', link: '/LLM/Agent/S5' },
           { text: 'Text-to-SQL 优化', link: '/LLM/Agent/Text_to_SQL改进总览' }
         ]
       },
